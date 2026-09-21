@@ -1,0 +1,5 @@
+# Local reproduction outputs
+reproducibility/run_*/
+*.Rhistory
+.Rproj.user/
+.DS_Store

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the corresponding Zenodo release and the associated manuscript."
+title: "Oxeiptosis CRC analysis: public reproducibility package"
+type: software
+version: "0.4.0"
+date-released: 2026-09-21
+doi: "10.5281/zenodo.22865462"
+repository-code: "https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility"
+url: "https://doi.org/10.5281/zenodo.22865462"
+authors:
+  - family-names: Zhang
+    given-names: Xia
+    orcid: "https://orcid.org/0009-0003-1978-4976"
+    affiliation: "Department of Oncology, Guihang Guiyang Hospital"
+  - family-names: Wang
+    given-names: Jinglin
+    orcid: "https://orcid.org/0000-0002-7389-1022"
+    affiliation: "Department of Digestive Disease, Guizhou Provincial People's Hospital"
+keywords:
+  - oxeiptosis
+  - colorectal cancer
+  - transcriptomic score
+  - reproducibility
+  - public data
+abstract: >-
+  Reproducibility inputs, expected outputs, scripts, figures, and supplementary
+  tables for the OX4 transcript-score association analysis in public colorectal
+  cancer cohorts. The package preserves the analysis and its interpretation
+  boundaries; it does not establish a functional assay for oxeiptosis.
