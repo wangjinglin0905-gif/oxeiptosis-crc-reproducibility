@@ -1,0 +1,4 @@
+﻿cohort,n_reference,rho_rank,rank_r_squared,one_minus_rank_r_squared,note
+TCGA-COADREAD,367,0.7696071672030158,0.5922951918102507,0.4077048081897493,squared rank correlation is not original-score variance explained
+GSE39582,566,0.7951554517175705,0.6322721923961736,0.3677278076038264,squared rank correlation is not original-score variance explained
+GSE17538,232,0.7701191068809833,0.5930834387831634,0.4069165612168366,squared rank correlation is not original-score variance explained

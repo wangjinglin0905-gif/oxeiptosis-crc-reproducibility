@@ -1,7 +1,0 @@
-﻿definition,members,n_members,algorithm,role,reference_population
-OX3,KEAP1;PGAM5;AIFM1,3,"mean gene z(ddof=0), composite rescale(ddof=1)",construction sensitivity,TCGA 367; GSE39582 566; GSE17538 232
-OX4,KEAP1;PGAM5;AIFM1;OTUD1,4,"mean gene z(ddof=0), composite rescale(ddof=1)",primary,TCGA 367; GSE39582 566; GSE17538 232
-OX5,KEAP1;PGAM5;AIFM1;NFE2L2;AIRE,5,"mean gene z(ddof=0), composite rescale(ddof=1)",construction sensitivity,TCGA 367; GSE39582 566; GSE17538 232
-OX5_noNRF2,KEAP1;PGAM5;AIFM1;AIRE,4,"mean gene z(ddof=0), composite rescale(ddof=1)",construction sensitivity,TCGA 367; GSE39582 566; GSE17538 232
-OX6,KEAP1;PGAM5;AIFM1;OTUD1;CUL3;EZH2,6,"mean gene z(ddof=0), composite rescale(ddof=1)",construction sensitivity,TCGA 367; GSE39582 566; GSE17538 232
-OX2_coverage,KEAP1;AIFM1,2,"mean gene z(ddof=0), composite rescale(ddof=1)",construction sensitivity,TCGA 367; GSE39582 566; GSE17538 232

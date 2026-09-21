@@ -1,12 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this reproducibility package, please cite the corresponding Zenodo release and the associated manuscript."
+message: "If you use this reproducibility package, please cite the version-specific archive when available, or this repository commit. The manuscript is not yet peer reviewed."
 title: "Oxeiptosis CRC analysis: public reproducibility package"
 type: software
-version: "0.4.0"
-date-released: 2026-09-21
-doi: "10.5281/zenodo.22865462"
+version: "0.8.0"
+date-released: 2026-09-22
 repository-code: "https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility"
-url: "https://doi.org/10.5281/zenodo.22865462"
 authors:
   - family-names: Zhang
     given-names: Xia

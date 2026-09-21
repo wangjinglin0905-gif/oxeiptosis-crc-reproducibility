@@ -1,0 +1,54 @@
+[
+  {
+    "figure": 1,
+    "width_inches": 6.5,
+    "height_inches": 4.25,
+    "pixels": [
+      3900,
+      2550
+    ],
+    "dpi": 600,
+    "mode": "RGB",
+    "outside_text": [],
+    "sha256": "7a93357c8582b9255ab80dc05714fafb1207600ae91929b0b6f1e99e1e3b5d64"
+  },
+  {
+    "figure": 2,
+    "width_inches": 6.5,
+    "height_inches": 3.0,
+    "pixels": [
+      3900,
+      1800
+    ],
+    "dpi": 600,
+    "mode": "RGB",
+    "outside_text": [],
+    "sha256": "10f91194f2935b7499e5f8b913620908164bf5552205b6784d2fd49c19d53e14"
+  },
+  {
+    "figure": 3,
+    "width_inches": 7.3,
+    "height_inches": 3.2,
+    "pixels": [
+      4380,
+      1920
+    ],
+    "dpi": 600,
+    "mode": "RGB",
+    "outside_text": [],
+    "sha256": "d70a01ba620024080af3ba669f7a88a6d85e5a4743260a503a1168897d38c45c"
+  },
+  {
+    "figure": 4,
+    "width_inches": 6.5,
+    "height_inches": 3.0,
+    "pixels": [
+      3900,
+      1800
+    ],
+    "dpi": 600,
+    "mode": "RGB",
+    "outside_text": [],
+    "sha256": "fbd4412928a28a2f19fdb2552f201ee282a81f1e19d77cad8ac38a6b58a81352"
+  }
+]

@@ -1,0 +1,2 @@
+# Preserve exact released bytes, including CSV and session-info line endings.
+* -text

@@ -1,51 +1,43 @@
-# Oxeiptosis CRC analysis — public reproducibility package (v04)
+# Oxeiptosis CRC analysis: reproducibility package and manuscript materials
 
-This draft release contains the reproducibility inputs, expected outputs, analysis code, figures, and supplementary tables for the colorectal-cancer OX4 transcript-score analysis.
+Version 0.8.0 accompanies the revised PLOS ONE manuscript materials dated 2026-09-22. It preserves the frozen analytical results and updates scientific wording, figure formatting, supporting-file numbering and reproduction instructions. The manuscript is an author-review version, not a peer-reviewed publication.
 
-## Scope
+## Current materials
 
-The package reproduces the declared association analysis in three public cohorts (TCGA-COADREAD, GSE39582, and GSE17538). It is a computational reproducibility package, not a claim that the OX4 score measures functional oxeiptosis activity. The analysis uses public secondary data and does not contain newly collected human specimens.
+- [Manuscript](manuscript/manuscript_PLOS_v08.docx) and [readable text](manuscript/manuscript_PLOS_v08.md).
+- [Cover letter](manuscript/cover_letter_PLOS_ONE_v08.docx).
+- [Figures](figures/): four 600 dpi RGB LZW TIFF files.
+- [Figure sources](figure_sources/): SVG, PDF, PNG and the generation script.
+- [Supporting information](supporting_information/): S1 Text, S2 Text and S1–S27 Table.
+- [Supplementary methods](supplementary_methods_v08.md).
+- [Old-to-new supplement mapping](SUPPLEMENT_FILE_MAP.csv).
 
-The primary OX4 score is the equal-weight transcript score of **KEAP1, PGAM5, AIFM1, and OTUD1**, with the standardization rules documented in `supplementary_methods_v04.md` and `reproducibility/README.md`. The package also includes the 6,000 matched random-background models and the 300 recurrence diagnostics; the latter are diagnostic outputs and are not treated as valid inferential evidence when convergence warnings are present.
+The two creators are Xia Zhang (Department of Oncology, Guihang Guiyang Hospital; ORCID 0009-0003-1978-4976) and Jinglin Wang (Department of Digestive Disease, Guizhou Provincial People's Hospital; ORCID 0000-0002-7389-1022).
 
-## Reproduce
+## Reproduce the numerical models
 
-From the `reproducibility` directory:
+From the reproducibility directory:
 
 ```text
 python verify_inputs.py
 Rscript reproduce.R smoke
-Rscript reproduce.R full
+Rscript reproduce.R full run_verification
 ```
 
-The package was validated with R 4.6.1 and survival 3.8-6. `smoke` fits the 45 primary OS models. `full` additionally runs the recurrence diagnostics and 6,000 fixed random backgrounds. Outputs are written to a user-selected `run_*` directory and do not overwrite the frozen inputs or expected results.
+R 4.6.1 and survival 3.8-6 were used. Full mode was executed from the packaged derived inputs on 2026-09-22: 45 OS models, 300 recurrence diagnostics and 6,000 fixed-member matched-background models. Both model-result CSV files matched the archived expected files byte for byte. Thirty recurrence diagnostics retain convergence warnings; none of the 6,000 random-background fits had a Cox convergence warning. The separate comparison between Python and R background estimates has a maximum absolute log-HR difference of approximately 1.97e-9.
 
-## Data provenance
+The SHA256 manifest verifies 15 input/expected files against the exact previously released bytes. The previously omitted manifest is now included. Text conversion is disabled in .gitattributes to preserve those bytes. This is a derived-input model-reproduction package; it does not download or rebuild every original expression matrix. See [the reproduction instructions](reproducibility/README.md).
 
-The expression and clinical data are reused from public accessions and are represented here by the derived model-input tables needed to reproduce the reported analyses. The original public datasets remain governed by their respective repositories and accession terms. Source accession and reconstruction notes are given in the supplementary methods and reference files.
+## Interpretation and data provenance
 
-## Contents
+OX4 is an equal-weight transcript score of KEAP1, PGAM5, AIFM1 and OTUD1. Constituent standardisation uses population SD and composite standardisation uses sample SD. The GSE39582 expression reference comprises 566 profiles; its OS analysis contains 561 patients. The other primary OS cohorts contain 367 TCGA-COADREAD and 232 GSE17538 patients. Original public matrices remain at their source repositories.
 
-- `reproducibility/inputs/`: frozen model inputs, endpoint frames, random registries, and random score matrices.
-- `reproducibility/expected/`: frozen expected numerical outputs and session information.
-- `reproducibility/reproduce.R`: portable reproduction script.
-- `reproducibility/verify_inputs.py`: SHA256 input verification.
-- `figures/`: editable SVG, vector PDF, 300 dpi PNG, and 600 dpi RGB LZW TIFF exports.
-- `supplementary_tables/`: the 27 supplementary CSV tables.
-- `supplementary_methods_v04.md` and `.docx`: methods and interpretation boundaries.
-- `references_v04.md`: references used by the revised manuscript.
+The study evaluates the construction, survival associations and transcript context of this particular score. It does not provide functional calibration of oxeiptosis activity. Literature checks are targeted and AI assisted, without completed independent human ratings. AI use, uncertainty and exploratory analyses are disclosed in the manuscript. Institutional and submission declarations remain subject to author confirmation.
 
-## Interpretation boundary
+## Versions and citation
 
-The results support reproducibility of this particular score and its association analysis. They do not establish a universal oxeiptosis activity assay, causal mechanism, treatment response, or absence of biological relevance. Observational associations should be interpreted with the stated cohort, endpoint, covariate, and zero-time assumptions.
+The previous v0.4.0 archive remains available at https://doi.org/10.5281/zenodo.22865462. That DOI identifies the earlier release, not these updated v0.8.0 manuscript and figure files. The corresponding legacy document/table/figure copies are retained in archive/v0.4.0; shared model inputs stay in reproducibility.
 
-## Release status
+Zenodo publication of v0.8.0 is pending. Until its new version DOI is available, identify this release by its Git commit and do not cite the old version DOI as containing the revised manuscript. The manuscript continues to cite the old DOI specifically for frozen model inputs and original exports, with the checksum addendum supplied as S2 Text.
 
-Version 0.4.0 is archived at Zenodo: https://doi.org/10.5281/zenodo.22865462. The companion public repository is https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility. The Zenodo record is the citable archive; the GitHub repository is the working code-and-file mirror.
-
-## Authors
-
-- Xia Zhang — Department of Oncology, Guihang Guiyang Hospital (ORCID: https://orcid.org/0009-0003-1978-4976)
-- Jinglin Wang — Department of Digestive Disease, Guizhou Provincial People's Hospital (ORCID: https://orcid.org/0000-0002-7389-1022)
-
-Code is licensed under MIT; original documentation, derived tables, model-input tables, and figures are licensed under CC BY 4.0. See LICENSE_SCOPE.md.
+Code is MIT licensed; original documentation, manuscripts, derived tables and figures are CC BY 4.0. Third-party data and references retain their source terms. See LICENSE_SCOPE.md.

@@ -1,0 +1,8 @@
+﻿gene,probe,platform,mapping,aggregation
+KEAP1,202417_at,GPL570,one gene in frozen annotation,arithmetic mean of mapped probes
+PGAM5,1553837_at,GPL570,one gene in frozen annotation,arithmetic mean of mapped probes
+PGAM5,1555943_at,GPL570,one gene in frozen annotation,arithmetic mean of mapped probes
+AIFM1,205512_s_at,GPL570,one gene in frozen annotation,arithmetic mean of mapped probes
+OTUD1,226140_s_at,GPL570,one gene in frozen annotation,arithmetic mean of mapped probes
+OTUD1,231035_s_at,GPL570,one gene in frozen annotation,arithmetic mean of mapped probes
+OTUD1,238998_x_at,GPL570,one gene in frozen annotation,arithmetic mean of mapped probes

@@ -1,0 +1,1 @@
+Figures are generated from ../supporting_information without changing analytical results. Run python generate_figures.py. Verified with Python 3.12, matplotlib 3.11.2, numpy 2.5.3 and Pillow 12.3.0. Upload ../figures/Fig1.tif through Fig4.tif; SVG/PDF/PNG are source and review copies.
