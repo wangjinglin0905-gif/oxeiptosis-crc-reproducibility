@@ -1,10 +1,16 @@
-﻿# Oxeiptosis v04 model reproduction package
+# Oxeiptosis CRC analysis — public reproducibility package (v04)
 
-本地复算包针对本轮论文的数值核验；不是从公共数据库全新下载、从零部署的完整研究流水线。
+This draft release contains the reproducibility inputs, expected outputs, analysis code, figures, and supplementary tables for the colorectal-cancer OX4 transcript-score analysis.
 
-## Run
+## Scope
 
-需要 R 和 survival。审查环境为 R 4.6.1、survival 3.8-6，详情见 expected/R_session_v04.txt。校验脚本仅需 Python 标准库。解压后保留本目录结构；以下命令在本目录运行。Windows 请先进入本目录后使用下面的相对脚本名；当前主机直接向 Rscript 传递含中文的绝对路径会出现区域设置/路径解码错误。
+The package reproduces the declared association analysis in three public cohorts (TCGA-COADREAD, GSE39582, and GSE17538). It is a computational reproducibility package, not a claim that the OX4 score measures functional oxeiptosis activity. The analysis uses public secondary data and does not contain newly collected human specimens.
+
+The primary OX4 score is the equal-weight transcript score of **KEAP1, PGAM5, AIFM1, and OTUD1**, with the standardization rules documented in `supplementary_methods_v04.md` and `reproducibility/README.md`. The package also includes the 6,000 matched random-background models and the 300 recurrence diagnostics; the latter are diagnostic outputs and are not treated as valid inferential evidence when convergence warnings are present.
+
+## Reproduce
+
+From the `reproducibility` directory:
 
 ```text
 python verify_inputs.py
@@ -12,20 +18,34 @@ Rscript reproduce.R smoke
 Rscript reproduce.R full
 ```
 
-smoke 模式拟合三队列、五构造、M0/M1/M2 共 45 项 OS 模型。full 模式另外拟合 300 项复发风险集诊断及 6,000 项固定成员的随机背景 M1 模型。默认结果写入 run_smoke 或 run_full；第二个参数可指定新的结果目录。输入和 expected 只读。输出目录会覆盖同名本地运行结果，重新运行需留档时请指定不同目录。
+The package was validated with R 4.6.1 and survival 3.8-6. `smoke` fits the 45 primary OS models. `full` additionally runs the recurrence diagnostics and 6,000 fixed random backgrounds. Outputs are written to a user-selected `run_*` directory and do not overwrite the frozen inputs or expected results.
 
-当前移植脚本的 smoke 模式已与本轮 R 结果逐行核对。full 模式所用计算主体与 audit_source/verify_models.R 相同；6,345 项完整计算已在原工作目录实际执行，移植包全量模式未另行再跑。随机矩阵使用 gzip 仅作无损压缩，6,000 个成员组合未重抽。
+## Data provenance
 
-## Contents and interpretation
+The expression and clinical data are reused from public accessions and are represented here by the derived model-input tables needed to reproduce the reported analyses. The original public datasets remain governed by their respective repositories and accession terms. Source accession and reconstruction notes are given in the supplementary methods and reference files.
 
-- inputs：三队列 OS 模型帧、复发诊断帧、随机成员注册表和随机评分矩阵。sample_id 是公开数据的编码标识，不是新增临床受试者信息。
-- expected：本轮 R 完整结果与版本记录。30 项复发模型带有收敛警告，保留作诊断，不能作为有效推断。6,000 项随机背景 M1 模型无收敛警告。
-- audit_source：本地原矩阵重建、既往解析函数来源、论文与图表生成代码。保留了工作区相对/绝对依赖，不能直接当作此包内的一键全流程命令。
-- provenance：冻结输入、额外来源、原矩阵重建依赖哈希、数值和版面记录。数据源仍留在原路径，不因打包迁移或重写。
-- manifest.json：本包发布时文件的 SHA256（不含 manifest 自身与后续 run_* 结果）。
+## Contents
 
-OS 主评分 OX4 为等权 KEAP1/PGAM5/AIFM1/OTUD1。各基因标准化 ddof=0，合成分数标准化 ddof=1。GSE39582 参考总体为 566，OS 拟合总体为 561；不要在复算时把它改成拟合子集 SD 后仍沿用本结果。
+- `reproducibility/inputs/`: frozen model inputs, endpoint frames, random registries, and random score matrices.
+- `reproducibility/expected/`: frozen expected numerical outputs and session information.
+- `reproducibility/reproduce.R`: portable reproduction script.
+- `reproducibility/verify_inputs.py`: SHA256 input verification.
+- `figures/`: editable SVG, vector PDF, 300 dpi PNG, and 600 dpi RGB LZW TIFF exports.
+- `supplementary_tables/`: the 27 supplementary CSV tables.
+- `supplementary_methods_v04.md` and `.docx`: methods and interpretation boundaries.
+- `references_v04.md`: references used by the revised manuscript.
 
-这里复现的是已声明构造的关联分析，不是 oxeiptosis 功能活性的校准。复发风险集保留来源与零时间假设；TCGA 新肿瘤事件不视同 RFS。核验算法实现不等于独立人工评定。论文定向文献核验不等于全量系统综述。
+## Interpretation boundary
 
-本目录是待公开发布的复现包候选版本；最终创建者、许可证、引用信息和公共仓库/Zenodo 标识尚未填入。原始公共矩阵来源与访问说明见上一级 supplementary_methods_v04.md 和参考文献。正式发布前应由作者核对 Data Availability、公共数据使用条款和最终版本号。
+The results support reproducibility of this particular score and its association analysis. They do not establish a universal oxeiptosis activity assay, causal mechanism, treatment response, or absence of biological relevance. Observational associations should be interpreted with the stated cohort, endpoint, covariate, and zero-time assumptions.
+
+## Release status
+
+Version 0.4.0 is archived at Zenodo: https://doi.org/10.5281/zenodo.22865462. The companion public repository is https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility. The Zenodo record is the citable archive; the GitHub repository is the working code-and-file mirror.
+
+## Authors
+
+- Xia Zhang — Department of Oncology, Guihang Guiyang Hospital (ORCID: https://orcid.org/0009-0003-1978-4976)
+- Jinglin Wang — Department of Digestive Disease, Guizhou Provincial People's Hospital (ORCID: https://orcid.org/0000-0002-7389-1022)
+
+Code is licensed under MIT; original documentation, derived tables, model-input tables, and figures are licensed under CC BY 4.0. See LICENSE_SCOPE.md.

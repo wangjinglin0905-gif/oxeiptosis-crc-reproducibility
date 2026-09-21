@@ -1,4 +1,0 @@
-﻿cohort,n,deaths,age_median,age_q1,age_q3,male,stage_I,stage_II,stage_III,stage_IV,stage_Unknown
-TCGA,367,85,66.0,55.5,75.0,202,56,132,111,51,17
-GSE39582,561,191,68.0,59.0,76.0,308,31,262,204,60,4
-GSE17538,232,93,65.5,56.0,74.0,122,28,72,76,56,0

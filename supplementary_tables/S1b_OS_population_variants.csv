@@ -1,0 +1,10 @@
+﻿cohort,variant,n,events,note
+TCGA,as_submitted,367,85,OS_time>0 not enforced for external cohorts
+TCGA,positive_time,367,85,"0 sample(s) with OS_time==0 excluded; sensitivity only, NOT the frozen denominator"
+TCGA,complete_stage,350,78,"missing stage kept as its own Unknown category, never folded into reference"
+GSE39582,as_submitted,561,191,OS_time>0 not enforced for external cohorts
+GSE39582,positive_time,555,187,"6 sample(s) with OS_time==0 excluded; sensitivity only, NOT the frozen denominator"
+GSE39582,complete_stage,557,190,"missing stage kept as its own Unknown category, never folded into reference"
+GSE17538,as_submitted,232,93,OS_time>0 not enforced for external cohorts
+GSE17538,positive_time,232,93,"0 sample(s) with OS_time==0 excluded; sensitivity only, NOT the frozen denominator"
+GSE17538,complete_stage,232,93,"missing stage kept as its own Unknown category, never folded into reference"
