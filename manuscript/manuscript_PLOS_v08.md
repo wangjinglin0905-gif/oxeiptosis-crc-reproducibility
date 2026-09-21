@@ -202,7 +202,7 @@ Benchmarking across three colorectal cancer cohorts showed that the equally weig
 
 Data availability
 
-The original datasets are available from GEO (GSE39582, GSE17538 and GSE71187) and the UCSC Xena TCGA hub (TCGA-COADREAD). Derived model inputs, fixed random-set memberships and scores, R code, results and the original figure exports are archived at https://doi.org/10.5281/zenodo.22865462. The companion repository is https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility. These resources support reproduction of the reported models from derived inputs; complete original expression matrices remain at the source repositories. Supplementary methods describe the analysis populations, transformations and scope of the reproduction package. S2 Text supplies the checksum manifest used with the archived inputs.
+The original datasets are available from GEO (GSE39582, GSE17538 and GSE71187) and the UCSC Xena TCGA hub (TCGA-COADREAD). Derived model inputs, fixed random-set memberships and scores, R code, results and publication figures are publicly available in the companion repository https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility. The version-specific Zenodo DOI for this release is https://doi.org/10.5281/zenodo.22882797. These resources support reproduction of the reported models from derived inputs; complete original expression matrices remain at the source repositories. Supplementary methods describe the analysis populations, transformations and scope of the reproduction package. The input checksum manifest is included in the package and supplied separately as S2 Text.
 
 Acknowledgments
 
@@ -248,7 +248,7 @@ Supporting information
 
 S1 Text. Supplementary methods and results, including population definitions, score construction, model diagnostics, source assessment and reproduction instructions.
 
-S2 Text. SHA256 manifest for the 15 archived reproduction inputs and expected outputs. Save as manifest.json in the reproduction directory; instructions are in S1 Text.
+S2 Text. SHA256 manifest for the 15 reproduction inputs and expected outputs; also included as reproducibility/manifest.json in the release package. Instructions are in S1 Text.
 
 S1 Table. Baseline characteristics of the 367 TCGA-COADREAD, 561 GSE39582 and 232 GSE17538 overall-survival populations.
 

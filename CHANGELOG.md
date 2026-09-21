@@ -2,6 +2,8 @@
 
 ## 0.8.0 — 2026-09-22
 
+- Backfill reserved DOI 10.5281/zenodo.22882797 in manuscript materials; make checksum instructions match the complete v0.8.0 package.
+
 - Add the revised manuscript and one-page cover letter.
 - Clarify score construction, matched backgrounds, evidence boundaries and actual AI-assisted checks.
 - Preserve frozen model results; verify full packaged-input reproduction (6,345 fits).

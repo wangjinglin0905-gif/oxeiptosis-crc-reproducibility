@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this reproducibility package, please cite the version-specific archive when available, or this repository commit. The manuscript is not yet peer reviewed."
+message: "If you use this reproducibility package, please cite the version-specific archive after publication, or this repository commit. The manuscript is not yet peer reviewed."
 title: "Oxeiptosis CRC analysis: public reproducibility package"
 type: software
 version: "0.8.0"
@@ -25,3 +25,5 @@ abstract: >-
   tables for the OX4 transcript-score association analysis in public colorectal
   cancer cohorts. The package preserves the analysis and its interpretation
   boundaries; it does not establish a functional assay for oxeiptosis.
+doi: "10.5281/zenodo.22882797"
+# DOI reserved in Zenodo draft 22882797; publication must be verified.

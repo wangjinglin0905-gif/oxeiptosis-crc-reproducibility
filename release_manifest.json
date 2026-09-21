@@ -256,13 +256,13 @@
   },
   {
     "path": "CHANGELOG.md",
-    "bytes": 810,
-    "sha256": "f1e179a74a5cde1e275b5a2097202baa6a4a3141de917a5f61f701485944e3f4"
+    "bytes": 948,
+    "sha256": "dce245df71527f23a9a08e5c0a6eb584a558e943273c4fb48eccc180a4f58b91"
   },
   {
     "path": "CITATION.cff",
-    "bytes": 1224,
-    "sha256": "fe4b9af17c79fc6f36b3cfbed4e8b994147611f500bdaf7eeff845a31df0452b"
+    "bytes": 1331,
+    "sha256": "dcfb38fbea97119946502ac67923e93772096b64caffe54429c11d122bd5edee"
   },
   {
     "path": "figure_sources/Fig1.pdf",
@@ -376,28 +376,28 @@
   },
   {
     "path": "manuscript/cover_letter_PLOS_ONE_v08.docx",
-    "bytes": 38092,
-    "sha256": "50499f16bf5511f9c3dd6cf8629bf97a9c6a2111a50980e0462dcaa42dc63833"
+    "bytes": 38104,
+    "sha256": "656731b1dc4dd881de8ecc1437eb06c6b05e681b7637024231cc30192517fbc4"
   },
   {
     "path": "manuscript/cover_letter_PLOS_ONE_v08.md",
-    "bytes": 2807,
-    "sha256": "c9f82e48f7ec858cf3072f5675c47c8f35a9e0ca0429509fce6946ab0dfb4663"
+    "bytes": 2837,
+    "sha256": "c94df1a66c1820213639b67f910e86fd50655e02a7a2dfdc5c76d7c0b5b25831"
   },
   {
     "path": "manuscript/manuscript_PLOS_v08.docx",
-    "bytes": 216054,
-    "sha256": "ce2bdea0ce4a7f01558b90767cf9605c08dbbf4fe5952371ab21d24b0f1d5080"
+    "bytes": 216086,
+    "sha256": "8fa2eb196946277f7fbce727d4baed098669f858a0a0e772ba6aea34b7c96f93"
   },
   {
     "path": "manuscript/manuscript_PLOS_v08.md",
-    "bytes": 40945,
-    "sha256": "149468585e9025e6f63e9f72ba7816d41f1c77353a89b3435233977b7cb465c8"
+    "bytes": 41026,
+    "sha256": "93f2a0f5630e0fb690afdce083ca2dc1b3d4a72b4b4288a29e8faf94896ebd3f"
   },
   {
     "path": "README.md",
-    "bytes": 4067,
-    "sha256": "84f610da33a2bf55a2d8f1442df485d33a13995e21fffd359401f62e1fcd3c3f"
+    "bytes": 4137,
+    "sha256": "c19af1cd17192b1c932c32638c1c3fd9993e80af48e830c9aa90a1f2435abcde"
   },
   {
     "path": "reproducibility/expected/R_all6000_matched_M1.csv",
@@ -481,8 +481,8 @@
   },
   {
     "path": "reproducibility/README.md",
-    "bytes": 2305,
-    "sha256": "30aa75b413fa861a9243ea325727a8a2ae3da709142eee6cb4642a5d6814afad"
+    "bytes": 2393,
+    "sha256": "b0daa76a642fc7e878a5ac621ec8be761688837f83bd5f1c14c6b79d99cd02a8"
   },
   {
     "path": "reproducibility/reproduce.R",
@@ -501,8 +501,8 @@
   },
   {
     "path": "supplementary_methods_v08.md",
-    "bytes": 14882,
-    "sha256": "f94d282935d5c6b33a19cb64a98f96d2e131dd8d8d0009cdd6ab17f6f6d7288e"
+    "bytes": 14938,
+    "sha256": "863fdc7c70708df2a34b5da9a2811002b31e5312f839dc800a8b1ed526adc2ff"
   },
   {
     "path": "supporting_information/S10_variance_decomposition.csv",
@@ -561,8 +561,8 @@
   },
   {
     "path": "supporting_information/S1_Text_supplementary_methods_v08.docx",
-    "bytes": 43518,
-    "sha256": "14c91a3a4763faa9ce3a7f2e7e7612c7bf8348c450d3d3b2e5305bce1f7f407b"
+    "bytes": 43533,
+    "sha256": "a836866aa09df6ee866f27b452da8c7edf70b7349fda011b58f2209b2c7e145f"
   },
   {
     "path": "supporting_information/S20_published_seed_uses.csv",

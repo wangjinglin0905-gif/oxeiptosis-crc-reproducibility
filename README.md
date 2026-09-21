@@ -38,6 +38,6 @@ The study evaluates the construction, survival associations and transcript conte
 
 The previous v0.4.0 archive remains available at https://doi.org/10.5281/zenodo.22865462. That DOI identifies the earlier release, not these updated v0.8.0 manuscript and figure files. The corresponding legacy document/table/figure copies are retained in archive/v0.4.0; shared model inputs stay in reproducibility.
 
-Zenodo publication of v0.8.0 is pending. Until its new version DOI is available, identify this release by its Git commit and do not cite the old version DOI as containing the revised manuscript. The manuscript continues to cite the old DOI specifically for frozen model inputs and original exports, with the checksum addendum supplied as S2 Text.
+The v0.8.0 Zenodo DOI is https://doi.org/10.5281/zenodo.22882797. It was reserved in draft 22882797 during package preparation. Publication is pending verification; the DOI reservation does not itself establish that the archive is public. Until publication is confirmed, the files are available from this Git repository. The manuscript and cover letter identify the assigned version DOI and the public GitHub source.
 
 Code is MIT licensed; original documentation, manuscripts, derived tables and figures are CC BY 4.0. Third-party data and references retain their source terms. See LICENSE_SCOPE.md.
