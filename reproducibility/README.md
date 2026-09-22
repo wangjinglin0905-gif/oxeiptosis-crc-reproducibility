@@ -27,5 +27,5 @@ The package does not include audit_source or provenance directories. See the man
 
 OX4 averages KEAP1, PGAM5, AIFM1 and OTUD1. Constituent standardisation uses ddof=0; composite standardisation uses ddof=1. GSE39582 uses 566 expression profiles as the reference population and 561 patients in the OS model; do not silently rescale using the smaller fitted subset.
 
-Version-specific Zenodo DOI: https://doi.org/10.5281/zenodo.22882797 (reserved during package preparation; verify publication on Zenodo)
+Version-specific Zenodo DOI: https://doi.org/10.5281/zenodo.22882797 (published and verified)
 Companion repository: https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility
