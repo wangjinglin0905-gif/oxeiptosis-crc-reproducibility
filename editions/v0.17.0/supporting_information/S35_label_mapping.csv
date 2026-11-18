@@ -1,0 +1,40 @@
+﻿original_label,coarse_label
+,unlabelled
+IC aggragate_stroma or muscularis,other_tissue
+IC aggreagate_connective tissue,other_tissue
+IC aggreates_stroma or muscularis,other_tissue
+IC aggregate connective tissue,other_tissue
+IC aggregate submucosa,other_tissue
+IC aggregate_muscularis or stroma,other_tissue
+IC aggregate_stroma or muscularis,other_tissue
+IC aggregate_submucosa,other_tissue
+IC aggregregate_submucosa,other_tissue
+connective tissue_1_edema,other_tissue
+connective tissue_2_fibroblastic_IC low,other_tissue
+connective tissue_3_fibroblastic_IC med,other_tissue
+connective tissue_4_muscularis_IC low,other_tissue
+connective tissue_6_hemosiderin?,other_tissue
+epitehlium&submucosa,other_tissue
+epithelium&lam propria,other_tissue
+epithelium&submucosa,other_tissue
+exclude,author_exclude
+glandular tissue,other_tissue
+lamina propria,other_tissue
+muscularis_IC med to high,other_tissue
+non neo epithelium,other_tissue
+squamous epithelium,other_tissue
+stroma desmoplastic_IC low,stroma
+stroma desmoplastic_IC med to high,stroma
+stroma_desmoplastic_IC low,stroma
+stroma_desmoplastic_IC med to high,stroma
+stroma_fibroblastic_IC high,stroma
+stroma_fibroblastic_IC low,stroma
+stroma_fibroblastic_IC med,stroma
+stroma_fibroblastic_IC_high,stroma
+stroma_fibroblastic_IC_med,stroma
+submucosa,other_tissue
+tumor,tumor
+tumor&stroma,mixed_tumor_stroma
+tumor&stroma IC med to high,mixed_tumor_stroma
+tumor&stroma_IC low,mixed_tumor_stroma
+tumor&stroma_IC med to high,mixed_tumor_stroma

@@ -1,28 +1,28 @@
 cff-version: 1.2.0
-message: "If you use this reproducibility package, please cite the published version-specific Zenodo archive. The manuscript is not yet peer reviewed."
-title: "Oxeiptosis CRC analysis: public reproducibility package"
+message: "Please cite this version for the combined bulk and spatial analyses."
 type: software
-version: "0.8.0"
-date-released: 2026-09-22
+title: "Compartment association and count-split stability of an oxeiptosis-associated transcript score in colorectal cancer — reproducibility package"
+version: "0.17.0"
+date-released: 2026-11-18
 repository-code: "https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility"
 authors:
-  - family-names: Zhang
-    given-names: Xia
-    orcid: "https://orcid.org/0009-0003-1978-4976"
-    affiliation: "Department of Oncology, Guihang Guiyang Hospital"
   - family-names: Wang
     given-names: Jinglin
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China / Department of Digestive Disease, Guizhou Provincial People's Hospital, Guiyang, China"
     orcid: "https://orcid.org/0000-0002-7389-1022"
-    affiliation: "Department of Digestive Disease, Guizhou Provincial People's Hospital"
-keywords:
-  - oxeiptosis
-  - colorectal cancer
-  - transcriptomic score
-  - reproducibility
-  - public data
-abstract: >-
-  Reproducibility inputs, expected outputs, scripts, figures, and supplementary
-  tables for the OX4 transcript-score association analysis in public colorectal
-  cancer cohorts. The package preserves the analysis and its interpretation
-  boundaries; it does not establish a functional assay for oxeiptosis.
-doi: "10.5281/zenodo.22882797"
+  - family-names: Sun
+    given-names: Pan
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+  - family-names: Zhu
+    given-names: Wei
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+  - family-names: Zhang
+    given-names: Yan
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+  - family-names: Tang
+    given-names: Yao
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+  - family-names: Yang
+    given-names: Juan
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+    orcid: "https://orcid.org/0009-0001-2081-6950"

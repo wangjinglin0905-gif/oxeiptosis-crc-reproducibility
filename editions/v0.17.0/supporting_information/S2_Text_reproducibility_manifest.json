@@ -1,0 +1,77 @@
+[
+  {
+    "path": "inputs/GSE17538_endpoint_inputs.csv",
+    "bytes": 268310,
+    "sha256": "79b7106797a0299a31fa29c974f44f04d116624827b2bd731bddd9e53ae5a423"
+  },
+  {
+    "path": "inputs/GSE17538_model_inputs.csv",
+    "bytes": 134340,
+    "sha256": "e237b9a63b9a82e3ac2d3ae5392d5ad264f77d939807e70a14c3675399f9075d"
+  },
+  {
+    "path": "inputs/GSE17538_random_registry.csv",
+    "bytes": 427048,
+    "sha256": "cfa94bf38196a502c4446bb1ef7203613df868818cc8038c377abbd1f081aac4"
+  },
+  {
+    "path": "inputs/GSE17538_random_scores.csv.gz",
+    "bytes": 4162499,
+    "sha256": "6537e64b65890c5fa0577e834e1b4f2e74bdf72aa4f0b59308f03d287167bdce"
+  },
+  {
+    "path": "inputs/GSE39582_endpoint_inputs.csv",
+    "bytes": 753437,
+    "sha256": "37e960e282331bfe6030f50c4d3a05b5701e29b0c3dfa56de58c76517bc8727f"
+  },
+  {
+    "path": "inputs/GSE39582_model_inputs.csv",
+    "bytes": 333980,
+    "sha256": "f4bff0138ced16593279ee0c00fcd2eb6c0b275109aa25bcc896f26ebe10b806"
+  },
+  {
+    "path": "inputs/GSE39582_random_registry.csv",
+    "bytes": 429416,
+    "sha256": "934de4c91603e2a0e96e9e42e95894c84502f3161432ebd8e5ed5edb9d68ab7a"
+  },
+  {
+    "path": "inputs/GSE39582_random_scores.csv.gz",
+    "bytes": 10156590,
+    "sha256": "9adae49f8e1ca3f5285ce1b3756f90b3579b042eb1f79a29269a4418ed812236"
+  },
+  {
+    "path": "inputs/TCGA_endpoint_inputs.csv",
+    "bytes": 459684,
+    "sha256": "be532c9db4ce64654091d452dc3f58da538b54132b075e2025060cb8d4b385a4"
+  },
+  {
+    "path": "inputs/TCGA_model_inputs.csv",
+    "bytes": 213692,
+    "sha256": "fbb2cb2b8d834610f24a9c19932580d2edf40590bb8abd9259d742b735063501"
+  },
+  {
+    "path": "inputs/TCGA_random_registry.csv",
+    "bytes": 435842,
+    "sha256": "c658b31439046fafd4682c5bd677cc723ffbe393bfdc8b45522c64a882ec72df"
+  },
+  {
+    "path": "inputs/TCGA_random_scores.csv.gz",
+    "bytes": 6654562,
+    "sha256": "41494af3e8e6dfc3ec281733b3cb87bd2e22e8384c5e03ee6be91ce01eaed673"
+  },
+  {
+    "path": "expected/R_all6000_matched_M1.csv",
+    "bytes": 1070066,
+    "sha256": "1cd4b17726a99c52d7cda203335276ae08f9bb003ba3c5e183fcde45eb1eed63"
+  },
+  {
+    "path": "expected/R_observed_and_endpoint_fits.csv",
+    "bytes": 62546,
+    "sha256": "fc00b9a2392b9a0fcf3f9c0750828cf95334df01ebffefa673afd3263e73e593"
+  },
+  {
+    "path": "expected/R_session_v04.txt",
+    "bytes": 539,
+    "sha256": "fd8768a24a1fd0633bf8148e1d97823f4ed670f3bfc608e529b456dc570e3c10"
+  }
+]

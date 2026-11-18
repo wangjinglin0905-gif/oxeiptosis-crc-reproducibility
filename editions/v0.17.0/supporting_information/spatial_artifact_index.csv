@@ -1,0 +1,15 @@
+﻿role,absolute_path,sha256,scope
+bulk_baseline,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\outputs\Oxeiptosis_PLOS_ONE_v12_technical_2026-10-03\manuscript_PLOS_v12.md,dc2172c7401c440124e6703f42508cc947829b0381d97663a25b21c445065326,frozen; no recalculation
+HD_scale_summary,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\outputs\GSE280315_region_pilot_v01_2026-11-17\summary.csv,8ddc94b319b5902b64294d1bcdece0a00b143afa0ab88b19df2d5771e9106c41,20 section-scale summaries
+HD_scale_repetitions,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\outputs\GSE280315_region_pilot_v01_2026-11-17\split_replicates.csv,ceb6363c5e9b07bb6b26cb2c21416a1ae81f4b624fed4ec772122e85a774e8cf,600 technical repetitions
+HD_matched_summary,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\outputs\GSE280315_matched_controls_v01_2026-11-17\summary.csv,f1650dec59aea515fb2dad1b9c95d3d0732a7d9b661e8dab5b8345f407920182,510 construct summaries
+HD_matched_repetitions,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\outputs\GSE280315_matched_controls_v01_2026-11-17\replicates.csv,50a2486e91b665040cd982d593d405fcc20235a54e83bfe5ddd2c147666891d0,5100 technical repetitions
+HD_balance,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\outputs\GSE280315_matched_controls_v01_2026-11-17\selected_match_balance.csv,17b7348539f4f2329eda1084e38f775897d585edfa911760fa298e4078e4c41e,2000 member-level matching records
+external_summary,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\outputs\GSE226997_validation_v01_2026-11-17\summary.csv,20ec4848e36133d24827e86f8c50cb67631f81904d4aebec94e8a01d9da9c2e7,9 complete constructs
+external_repetitions,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\outputs\GSE226997_validation_v01_2026-11-17\replicates.csv,6eb98ba99b4ee87fa8f5cda1512609578896b1dce66c03f0e72cf93a6b154096,270 technical repetitions
+original_provenance,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\outputs\GSE226997_provenance_pathology_v01_2026-11-17\original_vs_STimage_audit.json,7052225006b66ad9303cd4105dfcbe9eceab54f756e8017daf74442d34d8114c,4 original deposited processed matrices; zero count differences
+scale_code,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\work\spatial_pilot_20261117\run.py,6686fbe3365a8a04ea8264ba82a7db87f30671cadcb4f6131ffb81b916a8e750,existing implementation
+matched_code,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\work\matched_controls_20261117\run.py,9704ec2fae2290e9ea9c2bf7101f26d32aa40cc6b981e8abc91aaf357bffac6d,existing implementation
+external_code,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\work\GSE226997_validation_20261117\analyze.py,4f6ee44fc141ac6a59559e95026a03018a7cba006b73a030aebd585200868f20,existing implementation
+input_audit_code,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\work\GSE226997_validation_20261117\audit_original.py,4349dabc29d3b39c1e2804450cab433be25f283adc9730b1f5762cf1a5767985,original count audit
+revision_code,C:\Users\Spica\Documents\Codex\2026-09-08\oxeiptosis\work\GSE226997_validation_20261117\build_v13.py,ace17a27584ab3844f86efefe13588d191b5caed36087dfedca6a9c86a0da21b,rebuilds v13 from v12 and frozen CSVs
