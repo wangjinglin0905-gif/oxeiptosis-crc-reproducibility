@@ -317,7 +317,7 @@ Not applicable. This manuscript contains no identifiable individual participant 
 
 Data Availability Statement
 
-Bulk expression and clinical data are available through UCSC Xena (TCGA-COADREAD) and GEO (GSE39582, GSE17538 and GSE71187). Spatial inputs are available through GEO (GSE280315 and GSE226997) and the source morphology archive (https://doi.org/10.5281/zenodo.7760264). The bulk-model inputs, R scripts and expected outputs are archived at https://doi.org/10.5281/zenodo.22882797. The combined reproducibility package contains the additional spatial scripts, derived results and a portable check of the morphology summaries (https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility/tree/v0.17.0).
+Bulk expression and clinical data are available through UCSC Xena (TCGA-COADREAD) and GEO (GSE39582, GSE17538 and GSE71187). Spatial inputs are available through GEO (GSE280315 and GSE226997) and the source morphology archive (https://doi.org/10.5281/zenodo.7760264). The bulk-model inputs, R scripts and expected outputs are archived at https://doi.org/10.5281/zenodo.22882797. The combined reproducibility package contains the additional spatial scripts, derived results and a portable check of the morphology summaries (https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility/tree/v0.17.0). The version-specific archive is https://doi.org/10.5281/zenodo.24330126.
 
 Acknowledgments
 

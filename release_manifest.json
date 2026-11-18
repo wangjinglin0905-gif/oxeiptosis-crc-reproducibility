@@ -4,13 +4,13 @@
  "files": [
   {
    "path": "CITATION.cff",
-   "bytes": 1585,
-   "sha256": "1ce2a7b8c925e24e2522806b043224245674b362612be8e53f01f65ba6448f00"
+   "bytes": 1617,
+   "sha256": "1e5f39e75a4e2c7adc8fd14b86f049c2ba15abcfc80759a208712ad05166381f"
   },
   {
    "path": "editions/v0.17.0/CITATION.cff",
-   "bytes": 1585,
-   "sha256": "1ce2a7b8c925e24e2522806b043224245674b362612be8e53f01f65ba6448f00"
+   "bytes": 1617,
+   "sha256": "1e5f39e75a4e2c7adc8fd14b86f049c2ba15abcfc80759a208712ad05166381f"
   },
   {
    "path": "editions/v0.17.0/figures/Figure1.tif",
@@ -54,18 +54,18 @@
   },
   {
    "path": "editions/v0.17.0/manuscript/manuscript_Genes_v17.docx",
-   "bytes": 1264559,
-   "sha256": "b9bfd703f62edcf769a5e98704b347a2e62ab1589a40f0cdd3ef3d22f721e44d"
+   "bytes": 1264575,
+   "sha256": "eeb4ce3b1343c1abc0d0ab44eff0c9c86220acc06cc29a421ef08c89b2c5cd2a"
   },
   {
    "path": "editions/v0.17.0/manuscript/manuscript_Genes_v17.md",
-   "bytes": 62643,
-   "sha256": "41095fde1527078da0b94d103270172d9b5d9b85faa2905ac701b26f1ae22a9d"
+   "bytes": 62716,
+   "sha256": "bd43d7cb438c2c2dc355f96136beaa564943149cb852475481505812f06516c0"
   },
   {
    "path": "editions/v0.17.0/manuscript/manuscript_Genes_v17.pdf",
-   "bytes": 875695,
-   "sha256": "d78bda0815cfd7124b6db387dbe5978b398ed6fad5bb8dd90556f132513141bd"
+   "bytes": 875783,
+   "sha256": "650fcc4b2ea197ef5729e710043b1dd8905600131d2012bb7992a7ba47ba98dd"
   },
   {
    "path": "editions/v0.17.0/README.md",
@@ -75,7 +75,7 @@
   {
    "path": "editions/v0.17.0/SHA256SUMS.txt",
    "bytes": 7419,
-   "sha256": "09066d9842b7d2f4f36f081d12654088d2ce20b5c93099eef9485b0376baaedd"
+   "sha256": "db6ba1d1a00bc54355806a2bf5fc03f245a7188c1de9442a281572121e665d8e"
   },
   {
    "path": "editions/v0.17.0/supporting_information/S10_variance_decomposition.csv",
@@ -135,17 +135,17 @@
   {
    "path": "editions/v0.17.0/supporting_information/S1_Code_spatial.zip",
    "bytes": 2271233,
-   "sha256": "a397001125bdf187ad4f872602fe50ea388e5c066931aab2d622a7ddb256dcfe"
+   "sha256": "3079c9129420e6e79cd51eed326bcb8273b4316919156cba533eccd52f1ac663"
   },
   {
    "path": "editions/v0.17.0/supporting_information/S1_Text_supplementary_methods_v17.docx",
    "bytes": 44239,
-   "sha256": "f14fc5b76ef3705845b739c0eb49e00cadd947267ec6f0eddab33190e453ac48"
+   "sha256": "d5c4c4f331f1d380b95b9a3f902b869902f9ea464108143e6d70f58f8e52e7af"
   },
   {
    "path": "editions/v0.17.0/supporting_information/S1_Text_supplementary_methods_v17.pdf",
    "bytes": 170965,
-   "sha256": "a29ec60d5c561e334a7fa8c91f31b90f189772cca4bf6643ffd9c8f3b1af2498"
+   "sha256": "76a48c11d4f5fe5ec594ba0a644695425c66f3aff631324d11692de77c7b8259"
   },
   {
    "path": "editions/v0.17.0/supporting_information/S20_published_seed_uses.csv",
@@ -270,7 +270,7 @@
   {
    "path": "editions/v0.17.0/supporting_information/S3_Text_spatial_extension_v17.docx",
    "bytes": 41905,
-   "sha256": "e9d46d9a4f83590faaf13c371a35742b8ca38d3c50943b16a8efff52dc291ae9"
+   "sha256": "1a5c77cac4f4f6775b7b442153c7f43e66fa197f1344d0f452d21e8a184b0320"
   },
   {
    "path": "editions/v0.17.0/supporting_information/S3_Text_spatial_extension_v17.md",
@@ -280,7 +280,7 @@
   {
    "path": "editions/v0.17.0/supporting_information/S3_Text_spatial_extension_v17.pdf",
    "bytes": 284593,
-   "sha256": "3fe814fd63eca1d1899ada0f2953073a1e2bad458bd5140966bba903df635641"
+   "sha256": "9998ec2a4ddac50b871b0c4ad70fc2ab2615b4dcafafb3dac31c474714719341"
   },
   {
    "path": "editions/v0.17.0/supporting_information/S4_reference_member_universe.csv",
@@ -290,7 +290,7 @@
   {
    "path": "editions/v0.17.0/supporting_information/S4_Text_morphology_v17.docx",
    "bytes": 42268,
-   "sha256": "412f9761a2b0c0e375adf7c33df865b776a2a0d1e8d2f33d569464845833c15d"
+   "sha256": "fbed54935fbf8cae41d78d15db06ff3e2798d3b95a08c88b856fd8f56c4e05d6"
   },
   {
    "path": "editions/v0.17.0/supporting_information/S4_Text_morphology_v17.md",
@@ -300,7 +300,7 @@
   {
    "path": "editions/v0.17.0/supporting_information/S4_Text_morphology_v17.pdf",
    "bytes": 247287,
-   "sha256": "d349720048570c3dd43e31d32a6f45500b8be9e4e092e769d6369aea220107a7"
+   "sha256": "9f95153fb4fff5b295f8ced4a81cdec8772e06c0d9ad94b32067964ab929c15a"
   },
   {
    "path": "editions/v0.17.0/supporting_information/S5_reference_population_and_reconstruction.csv",
@@ -455,7 +455,7 @@
   {
    "path": "SUPPLEMENT_FILE_MAP.csv",
    "bytes": 7387,
-   "sha256": "14bf6a1d402dcf49e958852fb97d193106382c465c5607aa6431b41198061b0a"
+   "sha256": "896b9bfddd05b72d34380925be1524477491e0cb9b7dad56e31c50d2ac5886e7"
   }
  ]
 }

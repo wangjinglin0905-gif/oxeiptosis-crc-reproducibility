@@ -1,1 +1,1 @@
-The current author manuscript and reproducibility files are under editions/v0.17.0. The dedicated Git version identifies the combined package. The version DOI 10.5281/zenodo.22882797 identifies the earlier bulk release. Journal publication status: author manuscript.
+Current package: editions/v0.17.0. Version DOI: https://doi.org/10.5281/zenodo.24330126. Earlier bulk release: https://doi.org/10.5281/zenodo.22882797. Journal publication status: author manuscript.
