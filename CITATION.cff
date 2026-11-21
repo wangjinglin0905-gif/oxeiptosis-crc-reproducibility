@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "Please cite this version for the combined bulk and spatial analyses."
 type: software
-title: "Compartment association and count-split stability of an oxeiptosis-associated transcript score in colorectal cancer — reproducibility package"
-version: "0.17.0"
-date-released: 2026-11-18
+title: "OX4 compartment and count-split analysis in colorectal cancer: reproducibility materials"
+version: "0.20.0"
+date-released: 2026-11-21
 repository-code: "https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility"
 authors:
   - family-names: Wang
@@ -26,4 +26,4 @@ authors:
     given-names: Juan
     affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
     orcid: "https://orcid.org/0009-0001-2081-6950"
-doi: "10.5281/zenodo.24330126"
+doi: "10.5281/zenodo.24421516"

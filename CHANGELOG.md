@@ -1,30 +1,58 @@
+# Changes in 0.20.0
+
+Added the external pathology-annotated cohort, patient-level and section-level checks, full six-figure set and an integrated reproducibility download.
+
 # Release history
 
 ## 0.17.0 (2026-11-18)
 
 Added spatial expression and H&E compartment analyses, the six-author manuscript, updated funding, reference-specific verification and portable spatial-result verification. Version 0.8.0 was created by Xia Zhang and Jinglin Wang and remains citable at https://doi.org/10.5281/zenodo.22882797.
 
-# Change log
-
-## Publication-status verification
-
-- Confirm the v0.8.0 Zenodo record is public and its DOI resolves.
-- Download the archive and verify its bytes, all 130 manifest entries and all 35 submission files.
-- Update status documentation only; the immutable archive is Git snapshot d591af2de8ef5797e819095df5432897cea0d5b7.
-
-## 0.8.0 — 2026-09-22
-
-- Backfill reserved DOI 10.5281/zenodo.22882797 in manuscript materials; make checksum instructions match the complete v0.8.0 package.
-
-- Add the revised manuscript and one-page cover letter.
-- Clarify score construction, matched backgrounds, evidence boundaries and actual AI-assisted checks.
-- Preserve frozen model results; verify full packaged-input reproduction (6,345 fits).
-- Supply the missing 15-file SHA256 manifest and correct executable-scope instructions.
-- Preserve exact checksum-covered bytes through Git.
-- Renumber 27 supporting tables with whole numbers and update every manuscript cross-reference.
-- Regenerate four figures for journal formatting without changing plotted observations.
-- Retain v0.4.0 documents, table labels and figures under archive/v0.4.0.
-
-## 0.4.0 — 2026-09-21
-
-Original public model-reproduction release: https://doi.org/10.5281/zenodo.22865462.
+# Change log
+
+
+
+## Publication-status verification
+
+
+
+- Confirm the v0.8.0 Zenodo record is public and its DOI resolves.
+
+- Download the archive and verify its bytes, all 130 manifest entries and all 35 submission files.
+
+- Update status documentation only; the immutable archive is Git snapshot d591af2de8ef5797e819095df5432897cea0d5b7.
+
+
+
+## 0.8.0 — 2026-09-22
+
+
+
+- Backfill reserved DOI 10.5281/zenodo.22882797 in manuscript materials; make checksum instructions match the complete v0.8.0 package.
+
+
+
+- Add the revised manuscript and one-page cover letter.
+
+- Clarify score construction, matched backgrounds, evidence boundaries and actual AI-assisted checks.
+
+- Preserve frozen model results; verify full packaged-input reproduction (6,345 fits).
+
+- Supply the missing 15-file SHA256 manifest and correct executable-scope instructions.
+
+- Preserve exact checksum-covered bytes through Git.
+
+- Renumber 27 supporting tables with whole numbers and update every manuscript cross-reference.
+
+- Regenerate four figures for journal formatting without changing plotted observations.
+
+- Retain v0.4.0 documents, table labels and figures under archive/v0.4.0.
+
+
+
+## 0.4.0 — 2026-09-21
+
+
+
+Original public model-reproduction release: https://doi.org/10.5281/zenodo.22865462.
+
