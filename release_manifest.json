@@ -1,7 +1,8 @@
 {
-  "version": "0.20.0",
-  "doi": "10.5281/zenodo.24421516",
-  "archive": "OX4_CRC_reproducibility_0.20.0.zip",
-  "sha256": "d1d92be7336f34101ad307cfbc83a46455197ffeb8f378c66490fcd11854d3f6",
-  "inventory": "editions/v0.20.0/Contents_SHA256.txt"
+  "version": "0.20.1",
+  "doi": "10.5281/zenodo.24432899",
+  "archive": "OX4_CRC_reproducibility_0.20.1.zip",
+  "asset_url": "https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility/releases/download/v0.20.1/OX4_CRC_reproducibility_0.20.1.zip",
+  "sha256": "c0008d50d7060e254a02a6112d5ca764c0b169026ba8bfb961902950d3410d75",
+  "inventory": "editions/v0.20.1/Contents_SHA256.txt"
 }

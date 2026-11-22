@@ -1,0 +1,51 @@
+{
+  "sample": "SN048_A121573_Rep1",
+  "image_sha256": "14ab4c7cd95820bd700d39d88077dc4fd318aed01a21a024746377b862d837f2",
+  "eligible_spots": 2049,
+  "tumour": 337,
+  "stroma": 249,
+  "cliff_delta": 0.27940843492665024,
+  "score_above_2": 65,
+  "score_below_minus2": 0,
+  "hires_scalefactors": {
+    "spot_diameter_fullres": 17.096079,
+    "tissue_hires_scalef": 0.9501188,
+    "fiducial_diameter_fullres": 27.616742999999992,
+    "tissue_lowres_scalef": 0.28503564
+  },
+  "archive_sha256": "dc9dc9840d4d0a22230790350a615491f5c58aab26970c98d69a5047e0873d77",
+  "source_doi": "10.5281/zenodo.7760264",
+  "source_license": "CC BY 4.0",
+  "crop_hires_pixels": [
+    290,
+    419,
+    1473,
+    1473
+  ],
+  "scale_bar_um": 500,
+  "spot_diameter_um": 55,
+  "scale_bar_width_export_pixels": 119,
+  "scale_bar_rects_export_pixels": [
+    [
+      70,
+      1350,
+      188,
+      1362
+    ],
+    [
+      1371,
+      1350,
+      1489,
+      1362
+    ],
+    [
+      2672,
+      1350,
+      2790,
+      1362
+    ]
+  ],
+  "lower_panels_source_sha256": "5ba7a988b74ddf3a75397bb4c87ee1389904ed45399db4a3e39357e935d137ff",
+  "output_tiff_sha256": "0eae81969ec61b2bf30c80e836e8cbbddd1e637f457a7b459d51fc24c0e9a931",
+  "source_selection": "First alphanumeric eligible section ID; no OX4 values used for selection."
+}

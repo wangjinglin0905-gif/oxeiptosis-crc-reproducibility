@@ -1,3 +1,7 @@
+# Changes in 0.20.1
+
+Adds calibrated H&E, histological compartments and OX4 maps for section SN048_A121573_Rep1. Extends Figure 6 to display all 108 reference-score pairs. Includes input provenance, per-spot scores and both plotting scripts.
+
 # Changes in 0.20.0
 
 Added the external pathology-annotated cohort, patient-level and section-level checks, full six-figure set and an integrated reproducibility download.

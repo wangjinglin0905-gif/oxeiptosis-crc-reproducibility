@@ -1,1 +1,1 @@
-The reproducibility package for scientific baseline V20 is in editions/v0.20.0. Version DOI: https://doi.org/10.5281/zenodo.24421516.
+Current reproducibility package: [version 0.20.1](https://doi.org/10.5281/zenodo.24432899). [Download the complete archive](https://github.com/wangjinglin0905-gif/oxeiptosis-crc-reproducibility/releases/download/v0.20.1/OX4_CRC_reproducibility_0.20.1.zip).

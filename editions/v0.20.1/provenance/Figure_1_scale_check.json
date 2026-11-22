@@ -1,0 +1,45 @@
+{
+  "panels": [
+    "a",
+    "b",
+    "c"
+  ],
+  "value_um_each": 500,
+  "width_pixels_each": 119,
+  "TIFF_dimensions": [
+    3900,
+    2865
+  ],
+  "TIFF_resolution_dpi": [
+    600.0,
+    600.0
+  ],
+  "rectangles_inclusive": [
+    [
+      70,
+      1350,
+      188,
+      1362
+    ],
+    [
+      1371,
+      1350,
+      1489,
+      1362
+    ],
+    [
+      2672,
+      1350,
+      2790,
+      1362
+    ]
+  ],
+  "pixel_check": "Each rectangle is uniformly black and bounded by white on both sides.",
+  "source": {
+    "spot_diameter_fullres": 17.096079,
+    "tissue_hires_scalef": 0.9501188,
+    "fiducial_diameter_fullres": 27.616742999999992,
+    "tissue_lowres_scalef": 0.28503564
+  },
+  "sha256": "0eae81969ec61b2bf30c80e836e8cbbddd1e637f457a7b459d51fc24c0e9a931"
+}
